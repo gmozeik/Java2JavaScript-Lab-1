@@ -7,7 +7,7 @@ function yourFunctionName (){
 }
 
 function lab1 () {
-   for (int i = 1; i < 11; i++) {
-     display.innerHTML(i);
+   for (var i = 1; i < 11; i++) {
+     display.innerHTML += (i + "<br>");
    }
 }
