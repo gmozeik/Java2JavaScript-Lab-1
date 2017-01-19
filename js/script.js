@@ -8,6 +8,6 @@ function yourFunctionName (){
 
 function lab1 () {
    for (int i = 1; i < 11; i++) {
-     document.write(i);
+     display.innerHTML(i);
    }
 }
